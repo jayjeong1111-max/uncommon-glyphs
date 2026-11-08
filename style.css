@@ -1,0 +1,8 @@
+html, body { margin: 0; height: 100%; background: #e6e6da; overflow: hidden; }
+canvas { display: block; }
+#hint {
+  position: fixed; left: 16px; bottom: 14px;
+  font: 13px/1.5 ui-sans-serif, system-ui, sans-serif; color: #555;
+  background: #e6e6dacc; padding: 6px 10px; border-radius: 10px;
+  user-select: none; pointer-events: none;
+}
